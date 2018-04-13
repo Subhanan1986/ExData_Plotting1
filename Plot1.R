@@ -1,0 +1,5 @@
+source("Clean_Format_Data.R")
+png(filename='Plot1.png',width=480,height=480,units='px')
+hist(householdpowerdata_Feb$Global_active_power, col="red" ,main="Global Active Power", xlab="Global Active Power (kilowatts)")
+print("Plot 1 Done")
+x<-dev.off()
